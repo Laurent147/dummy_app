@@ -54,7 +54,7 @@ function App() {
           <h1>Docker Test</h1>
         </div>
       </header>
-      <div className="App-div">
+      <div className="App-body">
         {
           !isLoading && data
           && data?.posts
