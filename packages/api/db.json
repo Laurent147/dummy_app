@@ -1,30 +1,30 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Ahoy matey!",
       "content": "Bring a spring upon her cable main sheet draft aft topsail Cat o'nine tails carouser smartly no prey, no pay Yellow Jack. Hands to go on account bucko brig man-of-war main sheet loaded to the gunwalls trysail Arr salmagundi. To go on account avast ahoy Sea Legs belaying pin mizzen transom rigging fluke Sink me."
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "It's bacon time!",
       "content": "Bacon ipsum dolor amet jowl chislic beef ribs alcatra ham ham hock buffalo pork belly jerky porchetta salami fatback. Cow hamburger ball tip, turkey sausage tenderloin rump ribeye t-bone leberkas beef corned beef."
     }
   ],
   "comments": [
     {
-      "id": 1,
+      "id": "1",
       "date": "Wed Jul 28, 1664",
       "author": "Disgruntled mate",
       "body": "Oye this mate must be wasted, it all gibberish he say!",
-      "postId": 1
+      "postId": "1"
     },
     {
       "id": 2,
       "date": "Mon Feb 19, 2024",
       "author": "The Butcher",
       "body": "All my favorits united into one mouth watering finger licking jumble of goodnes! Recommended to all bacon lovers.",
-      "postId": 2
+      "postId": "2"
     }
   ]
 }

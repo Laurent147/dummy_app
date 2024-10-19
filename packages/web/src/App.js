@@ -54,11 +54,11 @@ function App() {
           <h1>Docker Test</h1>
         </div>
       </header>
-      <body className="App-body">
+      <div className="App-div">
         {
           !isLoading && data
           && data?.posts
-          && data.posts.length && data.posts.map(post => {
+          && !!data.posts.length && data.posts.map(post => {
           const postCom = data.comments.filter(com => {
             return com.postId === post.id
           });
@@ -72,24 +72,19 @@ function App() {
             <hr/>
             <h4>Comments:</h4>
               {
-                postCom.length && postCom.map(com => {
-                  return <Comment
+                !!postCom.length && postCom.map(com => {
+                  console.log('What the!')
+                  return (<Comment
                     author={com.author}
                     date={com.date}
                     body={com.body}
-                  />
-                  
-                  // (
-                  //   <div key={com.id} style={{paddingLeft: "150px"}}>
-                  //     <span>{com.body}</span>
-                  //   </div>
-                  // )  
+                  />)
                 })
               }
             </Card>
           )
         })}
-      </body>
+      </div>
     </div>
   );
 }
